@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Dicionário Automático",
+  "version": "1.0",
+  "description": "Mostra significado ao selecionar palavras",
+  "permissions": ["activeTab"],
+  "host_permissions": [
+    "https://api.dictionaryapi.dev/*",
+    "https://api.mymemory.translated.net/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
