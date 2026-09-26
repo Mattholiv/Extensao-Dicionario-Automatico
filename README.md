@@ -2,6 +2,7 @@
 
 Extensão de navegador que mostra a definição de palavras em inglês diretamente no texto da página, sem precisar sair do site.
 
+prints do projeto: https://drive.google.com/drive/folders/1i1JIyd5wwEiufkGq9f0LYGi6mzKhmOoO
 ## Funcionalidades
 
 - Detecta palavras ao passar o mouse sobre o texto
